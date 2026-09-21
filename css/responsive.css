@@ -1,0 +1,411 @@
+/* =========================
+   TABLETS
+========================= */
+
+
+@media(max-width:1024px){
+
+
+.nav-links{
+
+    gap:20px;
+
+}
+
+
+.hero h1{
+
+    font-size:45px;
+
+}
+
+
+
+.category-container{
+
+    grid-template-columns:repeat(2,1fr);
+
+}
+
+
+
+.product-container{
+
+    grid-template-columns:repeat(2,1fr);
+
+}
+
+
+
+.why-container,
+.value-container,
+.stats{
+
+
+    grid-template-columns:repeat(2,1fr);
+
+}
+
+
+
+.footer-container{
+
+    grid-template-columns:repeat(2,1fr);
+
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+/* =========================
+   MOBILE DEVICES
+========================= */
+
+
+@media(max-width:768px){
+
+
+
+.navbar{
+
+    height:75px;
+
+}
+
+
+
+.logo h2{
+
+    font-size:22px;
+
+}
+
+
+
+
+/* MOBILE MENU */
+
+
+.menu-btn{
+
+    display:block;
+
+}
+
+
+
+.nav-links{
+
+
+    position:absolute;
+
+    top:75px;
+
+    left:0;
+
+    width:100%;
+
+    background:#111;
+
+    flex-direction:column;
+
+    text-align:center;
+
+    padding:30px 0;
+
+    display:none;
+
+
+}
+
+
+
+.nav-links.active{
+
+    display:flex;
+
+}
+
+
+
+.nav-links li{
+
+    margin:15px 0;
+
+}
+
+
+
+
+
+
+/* DROPDOWN MOBILE */
+
+
+.dropdown-menu{
+
+
+    position:static;
+
+    width:100%;
+
+    background:#222;
+
+    box-shadow:none;
+
+}
+
+
+
+.dropdown-menu li a{
+
+    color:white;
+
+}
+
+
+
+
+
+
+.hero{
+
+
+    min-height:80vh;
+
+    padding:50px 6%;
+
+}
+
+
+
+.hero h1{
+
+
+    font-size:35px;
+
+
+}
+
+
+
+.hero p{
+
+    font-size:15px;
+
+}
+
+
+
+.hero-buttons{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:15px;
+
+}
+
+
+
+.btn{
+
+    text-align:center;
+
+    margin:0;
+
+}
+
+
+
+
+
+
+/* SEARCH */
+
+
+.search-box{
+
+    flex-direction:column;
+
+}
+
+
+
+.search-box input,
+.search-box button{
+
+    width:100%;
+
+}
+
+
+
+
+
+/* CATEGORIES */
+
+
+.category-container{
+
+
+    grid-template-columns:1fr;
+
+
+}
+
+
+
+
+/* PRODUCTS */
+
+
+.product-container{
+
+
+    grid-template-columns:1fr;
+
+
+}
+
+
+
+
+
+.product-card img{
+
+
+    height:250px;
+
+}
+
+
+
+
+
+
+/* WHY US */
+
+
+.why-container,
+.value-container,
+.stats{
+
+
+    grid-template-columns:1fr;
+
+
+}
+
+
+
+
+/* CONTACT */
+
+
+.contact-section{
+
+
+    grid-template-columns:1fr;
+
+}
+
+
+
+
+
+
+/* FOOTER */
+
+
+.footer-container{
+
+
+    grid-template-columns:1fr;
+
+
+}
+
+
+
+}
+
+
+
+
+
+/* =========================
+   SMALL PHONES
+========================= */
+
+
+@media(max-width:480px){
+
+
+
+section{
+
+    padding:50px 5%;
+
+}
+
+
+
+.hero h1{
+
+
+    font-size:30px;
+
+}
+
+
+
+.categories h2,
+.products h2,
+.values h2,
+.why-us h2{
+
+
+    font-size:30px;
+
+}
+
+
+
+.logo img{
+
+    width:45px;
+
+    height:45px;
+
+}
+
+
+
+.product-card img{
+
+    height:200px;
+
+}
+
+
+
+.stats h2{
+
+    font-size:35px;
+
+}
+
+
+
+}
